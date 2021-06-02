@@ -21,7 +21,6 @@ This code is divided into two part, server and client. Server runs under Python 
 Server side runs on Raspberry Pi, and you can run the client side on Windows and Linux (Haven't test on Mac.).
 Also, you can control the car via web browser. Even though its not that better, but it works. 
 
-We are happy to see your issus and pull request. Feel free to be apart.
 
 <a id="update"></a>
 ### Update:
@@ -32,11 +31,6 @@ We are happy to see your issus and pull request. Feel free to be apart.
 ###Trouble Shootings:
 <a id="error1"></a>
 None
-
-----------------------------------------------
-<a id="about_sunfounder"></a>
-### About SunFounder
-SunFounder is a technology company focused on Raspberry Pi and Arduino open source community development. Committed to the promotion of open source culture, we strives to bring the fun of electronics making to people all around the world and enable everyone to be a maker. Our products include learning kits, development boards, robots, sensor modules and development tools. In addition to high quality products, SunFounder also offers video tutorials to help you make your own project. If you have interest in open source or making something cool, welcome to join us!
 
 ----------------------------------------------
 <a id="license"></a>
@@ -52,17 +46,6 @@ SunFounder Smart Video Car Kit for Raspberry Pi comes with ABSOLUTELY NO WARRANT
 
 SunFounder, Inc., hereby disclaims all copyright interest in the program 'SunFounder Smart Video Car Kit for Raspberry Pi' (which makes passes at compilers).
 
-Mike Huang, 21 August 2015
-
-Mike Huang, Chief Executive Officer
-
-Email: service@sunfounder.com
 
 ----------------------------------------------
-<a id="contact_us"></a>
-### Contact us:
-website:
-    www.sunfounder.com
 
-E-mail:
-    service@sunfounder.com
