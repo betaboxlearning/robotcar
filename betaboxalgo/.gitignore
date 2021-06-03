@@ -1,0 +1,9 @@
+Dragit/config
+*.pyc
+*.bak
+*.log
+*.sps
+*.db
+*.dic
+*.fsg
+*.jsgf
