@@ -4,9 +4,9 @@
 * Filename    : PCA9685.py
 * Description : A driver module for PCA9685
 * Author      : Cavon
-* Brand       : SunFounder
-* E-mail      : service@sunfounder.com
-* Website     : www.sunfounder.com
+* Brand       : SunFounder, editing by Betabox
+* E-mail      : hello@betaboxlearning.com
+* Website     : www.betaboxlearning.com
 * Version     : v2.0.0
 **********************************************************************
 '''
@@ -46,6 +46,8 @@ class PWM(object):
     RPI_REVISION_2_MODULE_B = ["a01041", "a21041"]
     RPI_REVISION_3_MODULE_B = ["a02082", "a22082"]
     RPI_REVISION_3_MODULE_BP = ["a020d3"]
+    RPI_REVISION_4_MODULE_B = ["b03111"]
+
 
     _DEBUG = False
     _DEBUG_INFO = 'DEBUG "PCA9685.py":'
@@ -67,6 +69,8 @@ class PWM(object):
         elif pi_revision == '3 Module B':
             return 1
         elif pi_revision == '3 Module B+':
+            return 1
+        elif pi_revision == '4 Module B':
             return 1
 
     def _get_pi_revision(self):
@@ -94,6 +98,8 @@ class PWM(object):
                         return '3 Module B'
                     elif line[11:-1] in self.RPI_REVISION_3_MODULE_BP:
                         return '3 Module B+'
+                    elif line[11:-1] in self.RPI_REVISION_4_MODULE_B:
+                        return '4 Module B+'
                     else:
                         print "Error. Pi revision didn't recognize, module number: %s" % line[11:-1]
                         print 'Exiting...'
